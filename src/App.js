@@ -1,10 +1,10 @@
 import "./App.css";
 import Image from "mui-image";
 import header from "./images/bg-header-desktop.svg";
-import CompanyInfo from "./CompanyInfo";
+import CompanyInfo from "./component/CompanyInfo";
 
 import data from "./data.json";
-import SearchBar from "./SearchBar";
+import SearchBar from "./component/SearchBar";
 
 function App() {
   const infos = data.map(function (item, i) {

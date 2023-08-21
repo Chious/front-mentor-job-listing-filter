@@ -38,7 +38,8 @@
 }
 
 h1 {
-  font-size: 25px;
+  color: hsl(180, 29%, 50%);
+  font-size: 15px;
   font-weight: 700;
   font-family: "League Spartan", sans-serif;
   text-align: left;
@@ -48,16 +49,9 @@ h1 {
 
 p {
   margin: 0px;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 500;
   font-family: "League Spartan", sans-serif;
 
   margin: 5px;
-}
-
-Button {
-  margin: 0px;
-  font-size: 25px;
-  font-weight: 500;
-  font-family: "League Spartan", sans-serif;
 }

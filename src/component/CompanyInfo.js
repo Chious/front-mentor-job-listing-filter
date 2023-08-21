@@ -1,5 +1,5 @@
 import { Button, Card, Grid } from "@mui/material";
-import LogoSvg from "./LogoSvg";
+import LogoSvg from "../LogoSvg";
 
 export default function CompanyInfo({ data }) {
   const news = data.new ? (
@@ -55,6 +55,10 @@ export default function CompanyInfo({ data }) {
           margin: 5,
           zIndex: 1,
           minWidth: 90,
+
+          fontSize: "15px",
+          fontWeight: 700,
+          fontFamily: '"League Spartan", sans-serif',
         }}
         key={i}
       >
@@ -88,12 +92,12 @@ export default function CompanyInfo({ data }) {
               justifyContent: "center",
             }}
           >
-            <img src={LogoSvg[data.id - 1]} alt="" />
+            <img src={LogoSvg[data.id - 1]} alt="" style={{ maxWidth: 150 }} />
           </Grid>
 
           <Grid
             item
-            xs={5}
+            xs={4}
             style={{
               display: "flex",
               flexDirection: "column",
@@ -119,7 +123,7 @@ export default function CompanyInfo({ data }) {
           </Grid>
           <Grid
             item
-            xs={5}
+            xs={6}
             style={{
               display: "flex",
               flexDirection: "row",
